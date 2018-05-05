@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+p {
+    color: white!important;
+}
+
+
+h1 {
+    color: darkgray!important;
+    font-style: oblique;
+    font-weight: bold!important;
+}
+
+.jumbotron {
+    background-image: url("../images/jumboback.jpg");
+}
+
+#hello {
+    background-color: black;
+    margin-top: 20px;
+    border-width: 10px;
+    border-color: burlywood;
+    border-style: inset;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+h2 {
+    color: burlywood!important;
+}
+

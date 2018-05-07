@@ -45,7 +45,7 @@
 
         }
 
-        if (unknown === "lilyatchy") {
+        if (unknown === "lilyachty") {
             document.getElementById("imageid").src="./assets/images/ly.jpg";
             document.getElementById("song").src="./assets/audio/lilyatchy.mp3";
 
@@ -110,6 +110,11 @@
       wordString = blanks.join('');
       wordString2 = blanks.join(' ')
       
+
+      // Reset
+      if (event.keyCode === 13) {
+          gameStart();
+      }
       
       // INCORRECT LETTER GUESS
       if (unknown.indexOf(userGuess) === -1){

@@ -43,8 +43,6 @@ p {
 #imageid {
     width: 300px;
     height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border: solid 1px lightblue;
 }
 
@@ -68,4 +66,11 @@ p {
 
 .textAlign {
     text-align: center;
+}
+
+#inputbar {
+    background-color: black;
+    border: solid 1px white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

@@ -10,6 +10,15 @@ Various variables and arrays are used for the game. The altering and comparing o
 ## The Usefulness
 Using this website and analyzing this code can help give an understanding on how to use Javascript to perform website functions. Functions such as "push", "join", and "getElementByID" are utilized to perform the primary functions of the website's game.
 
+## Screenshot
+![screenshot](https://user-images.githubusercontent.com/36168517/46112229-cb9f2c00-c19e-11e8-9265-76db276d3974.PNG)
+- Users on non-mobile devices can utilize their keyboard to play the game.
+- Users on mobile devices can select the input field to open up their keyboard.
+
+## Technologies used
+- [Javascript](https://www.javascript.com/)
+- [Bootstrap 4](https://getbootstrap.com/)
+
 
 ## Getting started
 People can learn more about using Javascript by looking through websites such as [JS](https://www.javascript.com/) or [w3schools](https://www.w3schools.com/js/default.asp).

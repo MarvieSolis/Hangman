@@ -1,33 +1,71 @@
 body {
     background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
-    color: white!important;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-h1 {
-    color: darkgray!important;
-    font-style: oblique;
-    font-weight: bold!important;
+#nav {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(#555, #111);
+    box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.335);
+    text-align: center;
 }
 
-.jumbotron {
-    background-image: url("../images/jumboback.jpg");
+#navTitle {
+    width: 300px;
+    margin-top: 5px;
 }
 
-#hello {
-    background-color: black;
+#navAuthor {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+
+#navAuthorLink {
+    color: white;
+}
+
+#navAuthorLink:hover {
+    text-decoration: none;
+}
+
+#imageid {
+    width: 300px;
+    height: 300px;
     margin-top: 20px;
-    border-width: 10px;
-    border-color: burlywood;
-    border-style: inset;
-    padding-bottom: 40px;
-    padding-top: 60px;
+    margin-bottom: 20px;
+    border: solid 1px lightblue;
 }
 
-h2 {
-    color: burlywood!important;
+.game {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 760px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.gameText {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.artist {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textAlign {
+    text-align: center;
+}

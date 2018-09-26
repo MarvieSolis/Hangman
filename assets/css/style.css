@@ -69,6 +69,7 @@ p {
 }
 
 #inputbar {
+    color: white;
     background-color: black;
     border: solid 1px white;
     margin-top: 5px;

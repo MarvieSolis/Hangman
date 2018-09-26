@@ -111,6 +111,8 @@ document.onkeyup = function (event) {
     wordString = blanks.join('');
     wordString2 = blanks.join(' ')
 
+    document.getElementById("inputbar").value="";
+
 
     // Reset
     if (event.keyCode === 13) {
